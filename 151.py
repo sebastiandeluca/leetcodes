@@ -1,4 +1,14 @@
 # Reverse Words in a String
+# Soln: 0ms Runtime, beats 100.00%, 12.52MB memory, beats 49.85% (Attempt 3)
+class Solution(object):
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        return " ".join(filter(lambda x: x != "" and x != " ",list(reversed(s.split(" ")))))
+
+
 # Soln: 0ms Runtime, beats 100.00%, 12.76MB memory, beats 5.81% (Attempt 2)
 class Solution(object):
     def reverseWords(self, s):
@@ -13,7 +23,6 @@ class Solution(object):
     
 
 # Soln: 3ms Runtime, beats 43.37%, 12.51MB memory, beats 49.85% (Attempt 1)
-
 class Solution(object):
     def reverseWords(self, s):
         """
