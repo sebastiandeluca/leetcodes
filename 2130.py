@@ -1,5 +1,5 @@
 # Maximum Sum of a Linked List
-# Soln: 194ms runtime, beats 57.35%, 71.32MB memory, beats 66.97%
+# Soln: 194ms runtime, beats 57.35%, 71.32MB memory, beats 66.97%1431
 
 # Definition for singly-linked list.
 # class ListNode(object):
